@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MessagePool xmlns="http://wwww.ibm.com/iib/test/1.0.0">
+    <InputMessage timestamp="1722574494404" nodeId="FCMComposite_1_1" name="Try" id="1722574494404-286">
+        <plainText>%7B%0D%0A++++%22ID%22%3A+13%2C%0D%0A++++%22NAME%22%3A+%22Elon+Musk%22%2C%0D%0A++++%22AGE%22%3A+24%0D%0A++%7D</plainText>
+    </InputMessage>
+    <InputMessage timestamp="1722573845236" nodeId="FCMComposite_1_1" name="JSON Demo" id="1722573845236-126">
+        <plainText>%7B%0D%0A++++%22ID%22%3A+12%2C%0D%0A++++%22NAME%22%3A+%22John+Doe%22%2C%0D%0A++++%22AGE%22%3A+34%0D%0A++%7D</plainText>
+    </InputMessage>
+    <InputMessage timestamp="1722578216207" nodeId="FCMComposite_1_1" name="new message 1" id="1722578216207-773">
+        <plainText>%3CEMP%3E%0D%0A%3CID%3E80%3C%2FID%3E%0D%0A%3CNAME%3EPratik%3C%2FNAME%3E%0D%0A%3CAGE%3E18%3C%2FAGE%3E%0D%0A%3C%2FEMP%3E</plainText>
+    </InputMessage>
+</MessagePool>

@@ -1,0 +1,13 @@
+
+
+CREATE DATABASE MODULE HTTPDemo_Database
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		 insert into Database.HARSHADA.EMP values(InputRoot.XMLNSC.EMP.ID, 
+									InputRoot.XMLNSC.EMP.NAME,
+									InputRoot.XMLNSC.EMP.AGE); 
+		set OutputRoot.XMLNSC.DBINSERT.STATUS = 'SUCCESS';
+		RETURN TRUE;
+	END;
+
+END MODULE;
